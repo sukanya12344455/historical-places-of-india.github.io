@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Web Development september Minor Project</title>
+ <style>
+ body
+ { 
+ background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, 
+#6654F1 100%); 
+ } 
+ *
+ { 
+ font-family: cursive; 
+ margin: 0; padding: 0; 
+ box-sizing: border-box; 
+ outline: none; border:none; 
+ text-decoration: none; 
+ text-transform: capitalize; 
+ transition: .2s linear; 
+ } 
+ .container
+ { padding: 15px ; 
+ padding-top: 150px; 
+ padding-bottom: 100px; 
+ margin-top: 0; 
+ } 
+ header
+ { 
+ width: 100%; 
+ font-family: cursive; 
+ font-size: 60px; 
+ background: rgb(255,74,28); 
+ background: linear-gradient(90deg, rgba(255,74,28,1) 0%, 
+rgba(255,255,255,1) 50%, rgba(3,121,19,1) 100%); 
+ position: fixed; 
+ text-shadow: 0 2px 10px rgba(0,0,0.2); 
+ z-index: 1; 
+ } 
+ footer
+ { 
+ width: 100%; 
+ bottom: 0px; 
+ font-family: cursive; 
+ font-size: 45px; 
+ margin-bottom: 0px; 
+ background-image: linear-gradient(120deg, #89f7fe 0%, #023e8a 100%); 
+ text-shadow: 0 2px 10px rgba(0,0,0.2); 
+ position: fixed; 
+ z-index: 1; 
+ } 
+ .container
+ { 
+ display: grid; 
+ grid-template-columns: repeat(auto-fit,minmax(430px, 1fr)); 
+ gap: 30px; 
+ } 
+ .container .box
+ { 
+ background-image: linear-gradient(to bottom, #96fbc4 55%, #f9f586
+100%); 
+ box-shadow: 0 5px 10px rgba(0,0,0,.2); 
+ border-radius: 20px; 
+ text-align: center; 
+ padding-top: 15px; 
+ padding-bottom: 10px; 
+ } 
+ .container .box img
+ { 
+ border-radius: 20px; 
+ z-index: 0; 
+ } 
+ .container .box p
+ { 
+ font-size: 17px; 
+ line-height: 2; 
+ } 
+ .container .box .btn
+ { 
+ margin-top: 10px; 
+ display: inline-block; 
+ background: #0077b6; 
+ color: white; 
+ font-size: 17px; 
+ border-radius: 8px; 
+ padding: 6px 18px; 
+ } 
+ .container .box .btn:hover
+ { 
+ letter-spacing: 0.4px; 
+ transform: scale(1.05); 
+ } 
+ .container .box:hover
+ { 
+ box-shadow: 0 10px 15px rgba(0,0,0,.4); 
+ transform: scale(1.02); 
+ }</style> 
+ <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <div align="center">
+ <header>Historical Places in India</header>
+ </div>
+ <div class="container">
+ <div class="box">
+ <img
+src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/TajMahal.jpg/779
+px-TajMahal.jpg" alt="" style="width: 400px;">
+ <h2>Taj Mahal</h2>
+ <p>Located in Agra</p>
+ <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="btn">Read 
+more</a>
+ </div>
+ <div class="box">
+ <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/RedFort-Delhi.jpg" alt="" style="width: 420px;">
+ <h2>Red Fort</h2>
+ <p>Located in Delhi</p>
+ <a href="https://en.wikipedia.org/wiki/Red_Fort" class="btn">Read 
+more</a>
+ </div>
+ <div class="box">
+ <img src="https://assets.traveltriangle.com/blog/wpcontent/uploads/2019/02/Golden-Temple.jpg" alt="" style="width: 460px;">
+ <h2>Golden Temple</h2>
+ <p>Located in Amritsar</p>
+ <a href="https://en.wikipedia.org/wiki/Golden_Temple"
+class="btn">Read more</a>
+ </div>
+ <div class="box">
+ <img src="https://youthincmag.com/wpcontent/uploads/2021/06/lotus-temple_78361-1100.jpg" alt="" style="width: 
+400px;">
+ <h2>Lotus Temple</h2>
+ <p>Located in Delhi</p>
+ <a href="https://en.wikipedia.org/wiki/Lotus_Temple"
+class="btn">Read more</a>
+ </div>
+ <div class="box">
+ <img
+src="https://media.kidadl.com/If_you_want_to_know_chariot_shaped_temple_then_d
+o_read_Konark_Sun_Temple_facts_65639b2334.jpg" alt="" style="width: 440px; 
+margin-top: 10px;">
+ <h2>Sun Temple</h2>
+ <p>Located in Konark</p>
+ <a href="https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+class="btn">Read more</a>
+ </div>
+ <div class="box">
+ <img src="https://cdn.breathedreamgo.com/wpcontent/uploads/2010/03/India-for-Beginners-custom-tours-5.jpg" alt=""
+style="width: 455px; margin-top: 15px;">
+ <h2>Ajanta Caves</h2>
+ <p>Located in Aurangabad</p>
+ <a href="https://en.wikipedia.org/wiki/Ajanta_Caves"
+class="btn">Read more</a>
+ </div>
+ <div class="box">
+ <img src="https://ihplb.b-cdn.net/wpcontent/uploads/2018/06/Qutub-Minar.jpg" alt="" style="width: 400px;">
+ <h2>Qutub Minar</h2>
+ <p>Located in Delhi</p>
+ <a href="https://en.wikipedia.org/wiki/Qutb_Minar"
+class="btn">Read more</a>
+ </div>
+ <div class="box">
+ <img src="https://www.nativeplanet.com/img/2017/05/1-31-
+1496217090.jpg" alt="" style="width: 400px;">
+ <h2>Sanchi Stupa</h2>
+ <p>Located in Sanchi</p>
+ <a href="https://en.wikipedia.org/wiki/Sanchi" class="btn">Read 
+more</a>
+ </div>
+ <div class="box">
+ <img src="https://static.theprint.in/wpcontent/uploads/2018/12/Panorama_of_Jallianwala_Baghe1550674910748.jpg?compress=true&quality=80&w=376&dpr=2.6" alt="" style="width: 
+455px; margin-top: 15px;">
+ <h2>Jallianwala Bagh</h2>
+ <p>Located in Amritsar</p>
+ <a href="https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre"
+class="btn">Read more</a>
+ </div>
+ </div>
+ <div align="center">
+ <footer>Designed and Developed by Suhani Sukanya Ray</footer>
+ </div>
+</body>
+</html
